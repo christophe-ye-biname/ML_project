@@ -1,18 +1,11 @@
-Artificial Neural Network
-Importing the libraries
-Part 1 - Data Preprocessing
-Importing the dataset
-Encoding categorical data
-Splitting the dataset into the Training set and Test set
-Feature Scaling
-Part 2 - Building the ANN
-Initializing the ANN
-Adding the input layer and the first hidden layer
-Adding the second hidden layer
-Adding the output layer
-Part 3 - Training the ANN
-Compiling the ANN
-Training the ANN on the Training set
-Part 4 - Making the predictions and evaluating the model
-Predicting the Test set results
-Making the Confusion Matrix
+
+# Artificial Neural Network
+
+This is a neural network which learns to predict who survived and who died on the titanic.
+It's a feed-forward neural neural network and I use Relu activation fonction because it's fast to compute and it seem like "the default" activation fonction for feed-forward, I also use the sigmoid activation fonction to have a probability as final output
+
+## techno used
+[tensorflow](https://www.tensorflow.org/)
+[keras](https://keras.io/)
+
+
